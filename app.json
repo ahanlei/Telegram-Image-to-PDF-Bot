@@ -9,6 +9,10 @@
      "BOT_TOKEN": {
       "description": "Your Bot token from @Botfather"
     }
-   },
-   "buildpacks":{ "url": "heroku/python"}
+   },  
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
 }
