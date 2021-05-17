@@ -1,0 +1,17 @@
+{
+  "name": "Telegram-Image-to-PDF-Bot",
+  "description": "A bot to upload telegram images to telegraph",
+  "repository": "https://github.com/mastermindvrtx/Telegram-Image-to-PDF-Bot.git",
+  "logo": "https://telegra.ph/file/33adaf8d6c398edf81967.jpg",
+  "keywords": ["telegram", "pdf maker", "pdf","telegram bot"],
+  "env": {
+     "BOT_TOKEN": {
+      "description": "Your Bot token from @Botfather"
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
